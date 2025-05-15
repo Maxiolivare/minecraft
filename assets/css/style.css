@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'minecraft';
+    src: url(../font/MinecraftTen-VGORe.ttf);
+}
+body{
+    background-image: url('../img/fondo.jpg');
+    background-size:cover;
+    
+}
+.cien-porciento{
+    width: 100%;
+    height: 100vh;
+    
+}
+.tamano{
+    width: 180px;
+    height: 180px;
+    position: absolute;
+}
+.ajolote{
+    bottom: 15%;
+    left: 10%;
+    width: 130px;
+    height: 130px;
+    filter: brightness(0.7);
+    opacity: 0.5;
+}
+.abejas{
+    top: 15%;
+    right: 20%;
+}
+.zombie{
+    left: 35%;
+    top: 21%;
+    height: 100px;
+    width: 100px;
+}
+.creper{
+    left: 50%;
+    bottom: 30%;
+    width: 250px;
+    height: 250px;
+}
+.mish{
+    right: 10%;
+    bottom: 1%;
+
+}
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.boton{
+    font-family: 'minecraft';
+    width: 150px;
+    cursor: pointer;
+}
